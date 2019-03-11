@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha apresentação</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="desafio_icmcjr.css">
+	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		var horario = setInterval(myTimer, 1000);
+
+		function myTimer() {
+		    var data = new Date();
+		    var dia = data.getDate();
+		    var mes = data.getMonth() + 1;
+		    var ano = data.getFullYear();
+		    var hora = data.toLocaleTimeString();
+		    $("#data").text(dia + "/" + mes + "/" + ano + " - " + hora);
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<label id="data"></label>	
+		<h1 id="titulo_nome">Minha Apresentação</h1>	
+	</header>
+	<section id="corpo">
+		<div id="dados">
+			<img src="images/foto.jpg" id="foto">
+			<p class="info"><label class="info">Nome:</label> João Vitor de Mello Gomes</p>
+			<p class="info"><label class="info">Idade:</label> 18 anos</p>
+			<p class="info"><label class="info">Nascimento:</label> 26/08/2000</p>
+			<p class="info"><label class="info">Curso:</label> Bacharelado em Sistemas de Informação</p>
+			<p class="info"><label class="info">Cidade:</label> Pirassununga - SP</p>
+			<p class="info"><label class="info">Hobbies:</label> ler, jogar e programar</p>
+			<p class="info"><label class="info">Time:</label> São Paulo FC</p>
+		</div>
+		<div id="apresentacao">
+			<p class="texto">&nbsp;&nbsp;&nbsp;&nbsp;Olá, me chamo João Vitor de Mello Gomes, tenho 18 anos e desde que nasci moro no município de Pirassununga - SP (cidade localizada a 70Km de São Carlos). Estudar na Universidade de São Paulo sempre foi um sonho para mim, pois conheço muitas pessoas que estudam nela (em outros campi) e que sempre me recomendaram como a melhor do país. </p>
+			<p class="texto">&nbsp;&nbsp;&nbsp;&nbsp;Em minha cidade, moro com minha mãe, minha tia e minha vó em um bairro não muito longe do centro. Com um pouco mais de 80 mil habitantes, Pirassununga é conhecida principalmente por conta das Forças Armadas (Exército e Aeronáutica) e pelas empresas de bebidas, principalmente pela 51. Como não é uma cidade muito movimentada, não existem grandes atividades para se fazer durante o dia, porém atrai bastante turistas principalmente por conta da Cachoeira de Emas, um distrito de Pirassununga às margens do Rio Moji Guaçu, onde se encontram muitas atividades e os famosos restaurantes.</p>
+			<p class="texto">&nbsp;&nbsp;&nbsp;&nbsp;Sempre estudei em escolas públicas e até ano passado (2018) eu estudava na Etec Tenente Aviador Gustavo Klug, na minha própria cidade, onde eu cursava o Ensino Técnico de Informática Integrado ao Ensino Médio. Foi nesse momento da minha vida em que eu conheci o mundo da informática, principalmente da programação, e comecei a gostar dessa área, motivo pelo qual eu escolhi o curso de Bacharelado em Sistemas de Informação na USP.</p>
+			<p class="texto">&nbsp;&nbsp;&nbsp;&nbsp;Tenho alguns conhecimentos na área de desenvolvimento de sistemas, tanto para desktop quanto para aplicações web por conta do curso técnico (onde como TCC eu desenvolvi um sistema completo para uma loja), sendo Java a minha linguagem favorita, porém também aprendi HTML, C, C#, PHP, SQL, Javascript e estou fazendo cursos online de Kotlin e Python.</p>
+		</div>
+		<div id="fotos">
+			<h2 id="titulo_fotos">Algumas fotos...</h2>
+			<p id="foto01" class="photo"><span class="img">Formatura 2018</span></p>
+			<p id="foto02" class="photo"><span class="img">Sala do Ensino Médio</span></p>
+			<p id="foto03" class="photo"><span class="img">Premiação OBMEP 2013</span></p>
+			<p id="foto04" class="photo"><span class="img">Pirassununga</span></p>
+			<p id="foto05" class="photo"><span class="img">Cachoeira de Emas</span></p>
+		</div>
+		<footer>Produzido por João Vitor de Mello Gomes - 2019</footer>
+	</section>
+</body>
+</html>

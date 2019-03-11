@@ -1,0 +1,215 @@
+@charset "UTF-8";
+body {
+	padding: 0px 20px 0px 20px;
+	background-image: url("images/background002.png");
+}
+
+header {
+	width: 1270px;
+	margin: 0px auto;
+}
+
+#titulo_nome {
+	width: 400px;
+	margin: 20px auto;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30pt;
+	color: #F00;
+	text-shadow: 1px 1px black;
+}
+
+#data {
+	width: 190px;
+	position: relative;
+	display: block;
+	float: right;
+	font-family: "Teko", sans-serif;
+	font-size: 20pt;
+	font-weight: bolder;
+	color: #00F;
+}
+
+#corpo {
+	width: 1270px;
+	margin: 0px auto;
+}
+
+div {
+	padding: 5px;
+}
+
+#dados {
+	width: 250px;
+	margin: 10px;
+	display: inline-block;
+	background-color: rgba(0, 0, 255, 0.7);
+	border: 3px dotted #00A;
+}
+
+#foto {
+	width: 250px;
+	height: 250px;
+}
+
+p.info {
+	margin: 10px 0px;
+	padding: 2px;
+	font-size: 13pt;
+	color: #FFF;
+}
+
+label.info {
+	font-weight: bold;
+}
+
+#apresentacao {
+	width: 945px;
+	float: right;
+	margin: 10px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 3px dotted #777;
+}
+
+.texto {
+	text-align: justify;
+	margin: 18px 10px;
+	font-size: 15pt;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+#fotos {
+	margin: 0px auto;
+	width: 1030px;
+	background-color: rgba(0, 255, 0, 0.3);
+	border: 3px dotted #0A0;
+	border-radius: 50px;
+	padding: 10px 30px;
+}
+
+#titulo_fotos {
+	text-align: center;
+	font-family: sans-serif;
+	margin: 10px;
+	font-style: italic;
+}
+
+.photo {
+	display: inline-block;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #FFFFFF;
+	list-style: none;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);	
+	transition: all .5s ease-in;
+}
+
+#foto01 {
+	width: 200px;
+}
+
+#foto02 {
+	width: 350px;
+}
+
+#foto03 {
+	width: 375px;
+}
+
+#foto04 {
+	width: 393px;
+	margin-left: 105px;
+}
+
+#foto05 {
+	width: 372px;
+}
+
+.photo:hover {
+	transform: scale(1.5);
+}
+
+.photo:hover .img {
+	opacity: 1;
+}
+
+.img {
+	opacity: 0;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px black;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	padding: 5px;
+}
+
+#foto01 {
+	background: url('images/img_formatura.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #FFFFFF;
+}
+
+#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+#foto02 {
+	background: url('images/img_sala.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 700px 400px;
+	background-color: #FFFFFF;
+}
+
+#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 350px 200px;
+}
+
+#foto03 {
+	background: url('images/img_obmep.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 750px 400px;
+	background-color: #FFFFFF;
+}
+
+#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 375px 200px;
+}
+
+#foto04 {
+	background: url('images/img_mapa.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 795px 400px;
+	background-color: #FFFFFF;
+}
+
+#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 393px 200px;
+}
+
+#foto05 {
+	background: url('images/img_cachoeira.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 743px 400px;
+	background-color: #FFFFFF;
+}
+
+#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 372px 200px;
+}
+
+footer {
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 15pt;
+	margin: 15px;
+}
